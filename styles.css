@@ -1,0 +1,35 @@
+/*
+  styles.css is for local preview and design reference.
+  For production, the critical styles are inlined within index.html.
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f8;
+}
+
+.email-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #0078d7;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 16px !important;
+  }
+  .email-container {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+}
